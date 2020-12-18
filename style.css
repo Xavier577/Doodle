@@ -1,0 +1,35 @@
+* { 
+
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: auto;
+    padding: 10px;
+    background-color: whitesmoke;
+    font-style: italic;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+button#start-btn {
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px dashed black;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 25px;
+    font-style: italic;
+    font-family:monospace;
+}
+button#start-btn:hover {
+    cursor: pointer;
+    border: none;
+    color: whitesmoke;
+    background-color: black;
+}
